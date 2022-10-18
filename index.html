@@ -18,8 +18,9 @@
     <header class="main-header">
         <nav class="main-navigation">
             <img class="main-header-logo" src="svg/index-logo.svg" width="371px" height="155px"
-                alt="Логотип барбершопа " Бородинский">
+                alt="Логотип барбершопа  Бородинский">
             <div class="main-navigation-wrapper">
+
                 <div class="container">
                     <ul class="site-navigation">
                         <li><a href="info.html">Информация</a></li>
@@ -181,8 +182,8 @@
 
     <section class="modal modal-login">
         <h2>Личный кабинет</h2>
-        <p>Введите свой логин и пароль.</p>
-        <form class="login-form" action="#" method="post">
+        <p class="modal-discription">Введите пожалуйста свой логин и пароль</p>
+        <form class="login-form" action="https://echo.htmlacademy.ru" method="post">
             <p>
                 <label class="visually-hidden" for="user-login">Логин</label>
                 <input class="login-icon-user" id="user-login" type="email" name="login"
@@ -191,9 +192,9 @@
             <p>
                 <label class="visually-hidden" for="user-password">Пароль</label>
                 <input class="login-icon-password" id="user-password" type="password" name="password"
-                    placeholder="***********">
+                    placeholder="**********">
             </p>
-            <p class="login-password-info">
+            <p class="login-help">
                 <label class="login-checkbox">
                     <input type="checkbox" name="remember" class="visually-hidden">
                     <span class="checkbox-indicator"></span>
@@ -201,22 +202,29 @@
                 </label>
                 <a class="restore" href="#">Я забыл пароль!</a>
             </p>
-            <button class="button" type="submit">
-                Войти
-            </button>
+            <button class="button" type="submit">Войти</button>
         </form>
-        <button class="modal-close" type="button">Закрыть</button>
+        <button class="modal-close" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                <path
+                    d="M11.12 2a.4.4 0 0 1 0 .57L8 5.71a.4.4 0 0 0 0 .57l3.14 3.14a.4.4 0 0 1 0 .57L10 11.13a.41.41 0 0 1-.57 0L6.27 8a.41.41 0 0 0-.57 0l-3.14 3.12a.41.41 0 0 1-.57 0L.85 10a.4.4 0 0 1 0-.57L4 6.28a.4.4 0 0 0 0-.57L.85 2.57a.4.4 0 0 1 0-.57L2 .86a.41.41 0 0 1 .57 0L5.7 4a.4.4 0 0 0 .57 0L9.41.87a.41.41 0 0 1 .57 0z" />
+            </svg>
+            <span class="visually-hidden">Закрыть</span>
+        </button>
     </section>
 
     <section class="modal modal-map">
         <h2 class="visually-hidden">Как до нас добраться</h2>
-        <p>
-            <img src="/png/map.png" width="780" height="560"
-                alt="Офис компании по адресу ул. Большая Конюшенная 19/8, Санкт-Петербург">
-        </p>
-        <button class="modal-close" type="button">Закрыть</button>
+        <p><img src="/jpeg/map.jpg" width="780" height="560"
+                alt="Офис компании по адресу город Санкт-Петербург, улица Большая Конюшенная 19/8"></p>
+        <button class="modal-close" type="button">
+            <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 12 12">
+                <path
+                    d="M11.12 2a.4.4 0 0 1 0 .57L8 5.71a.4.4 0 0 0 0 .57l3.14 3.14a.4.4 0 0 1 0 .57L10 11.13a.41.41 0 0 1-.57 0L6.27 8a.41.41 0 0 0-.57 0l-3.14 3.12a.41.41 0 0 1-.57 0L.85 10a.4.4 0 0 1 0-.57L4 6.28a.4.4 0 0 0 0-.57L.85 2.57a.4.4 0 0 1 0-.57L2 .86a.41.41 0 0 1 .57 0L5.7 4a.4.4 0 0 0 .57 0L9.41.87a.41.41 0 0 1 .57 0z" />
+            </svg>
+            <span class="visually-hidden">Закрыть</span>
+        </button>
     </section>
-
 
 
 </body>
